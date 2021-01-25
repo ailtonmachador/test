@@ -1,4 +1,4 @@
-//tic toc toe game
+
 
 import java.util.Scanner;
 
@@ -88,31 +88,31 @@ public class AssigmentJava {
 					if(ResultSum>0 && ResultSum<=50 ) {
 						
 						
-						System.out.print((int)sum1+ "€ " );
+						System.out.print((int)sum1+ "â‚¬ " );
 						contPrizeSum1++;									
 					}
 				
 						else if(ResultSum>=50 && ResultSum<77) {
 							
-							System.out.print((int)sum2+ "€ " );
+							System.out.print((int)sum2+ "â‚¬ " );
 							contPrizeSum2++;	
 						}
 						
 					else if(ResultSum>=77 && ResultSum<92 ) {
 						
-						System.out.print((int)sum3+ "€ " );
+						System.out.print((int)sum3+ "â‚¬ " );
 						contPrizeSum3++;
 						}
 					
 					else if(ResultSum>=92 && ResultSum<98) {
 						
-						System.out.print((int)sum4+ "€ " );
+						System.out.print((int)sum4+ "â‚¬ " );
 						contPrizeSum4++;
 						}
 					
 					else if(ResultSum>=98) {
 						
-						System.out.print((int)sum5+ "€ " );
+						System.out.print((int)sum5+ "â‚¬ " );
 						contPrizeSum5++;
 						}
 					
@@ -126,7 +126,7 @@ public class AssigmentJava {
 						contPrizeSum1>contPrizeSum4 &&
 						contPrizeSum1>contPrizeSum5) {
 					
-					System.out.println("\nyou got "+sum1+"€");
+					System.out.println("\nyou got "+sum1+"â‚¬");
 					UserWins=UserWins+sum1;
 					aux2 = sum1;
 				
@@ -138,7 +138,7 @@ public class AssigmentJava {
 						contPrizeSum2>contPrizeSum4 &&
 						contPrizeSum2>contPrizeSum5) {
 					
-					System.out.println("\nyou got "+sum2+"€");
+					System.out.println("\nyou got "+sum2+"â‚¬");
 					UserWins=UserWins+sum2;
 					aux2 = sum2;
 				}
@@ -148,7 +148,7 @@ public class AssigmentJava {
 						contPrizeSum3>contPrizeSum4 &&
 						contPrizeSum3>contPrizeSum5) {
 				
-						System.out.println("\nyou got "+sum3+"€");
+						System.out.println("\nyou got "+sum3+"â‚¬");
 						UserWins=UserWins+sum3;
 						aux2 = sum3;
 				
@@ -159,7 +159,7 @@ public class AssigmentJava {
 						contPrizeSum4>contPrizeSum3 &&
 						contPrizeSum4>contPrizeSum5) {
 					
-					System.out.println("\nYou got "+sum4+"€");
+					System.out.println("\nYou got "+sum4+"â‚¬");
 					UserWins=UserWins+sum4;
 					aux2 = sum4;
 				}
@@ -168,7 +168,7 @@ public class AssigmentJava {
 						contPrizeSum5>contPrizeSum3 &&
 						contPrizeSum5>contPrizeSum4) {
 					
-					System.out.println("\nYou got "+sum5+"€");
+					System.out.println("\nYou got "+sum5+"â‚¬");
 					UserWins=UserWins+sum5;
 					aux2 = sum5;
 				}
@@ -180,7 +180,7 @@ public class AssigmentJava {
 					g=Math.max(sum1,sum2);
 					UserWins=UserWins+g;
 					aux2 = g;
-					System.out.println("\nYou got "+g+"€");		
+					System.out.println("\nYou got "+g+"â‚¬");		
 					}
 				
 				else if(contPrizeSum1==contPrizeSum3){	
@@ -188,7 +188,7 @@ public class AssigmentJava {
 					g=Math.max(sum1,sum3);
 					UserWins=UserWins+g;
 					aux2 = g;
-					System.out.println("\nYou got "+g+"€");		
+					System.out.println("\nYou got "+g+"â‚¬");		
 					}
 				
 				else if(contPrizeSum1==contPrizeSum4){	
@@ -196,7 +196,7 @@ public class AssigmentJava {
 					g=Math.max(sum1,sum4);
 					UserWins=UserWins+g;
 					aux2 = g;
-					System.out.println("\nYou got "+g+"€");		
+					System.out.println("\nYou got "+g+"â‚¬");		
 					}
 				
 				else if(contPrizeSum1==contPrizeSum5){	
@@ -204,7 +204,7 @@ public class AssigmentJava {
 					g=Math.max(sum1,sum5);
 					UserWins=UserWins+g;
 					aux2 = g;
-					System.out.println("\nYou got "+g+"€");		
+					System.out.println("\nYou got "+g+"â‚¬");		
 					}
 	
 //if we get  20 20 = 50 50 / 200 200 / 1000 1000 				
@@ -213,7 +213,7 @@ public class AssigmentJava {
 					g=Math.max(sum2,sum3);
 					UserWins=UserWins+g;
 					aux2 = g;
-					System.out.println("\nYou got "+g+"€");		
+					System.out.println("\nYou got "+g+"â‚¬");		
 					}
 				
 				else if(contPrizeSum2==contPrizeSum4){	
@@ -221,7 +221,7 @@ public class AssigmentJava {
 					g=Math.max(sum2,sum4);
 					UserWins=UserWins+g;
 					aux2 = g;
-					System.out.println("\nYou got "+g+"€");		
+					System.out.println("\nYou got "+g+"â‚¬");		
 					}
 				
 				else if(contPrizeSum2==contPrizeSum5){	
@@ -229,7 +229,7 @@ public class AssigmentJava {
 					g=Math.max(sum2,sum5);
 					UserWins=UserWins+g;
 					aux2 = g;
-					System.out.println("\nYou got "+g+"€");		
+					System.out.println("\nYou got "+g+"â‚¬");		
 					}
 				
 //if we get 50 50  =  200 200 / 1000 1000 				
@@ -238,7 +238,7 @@ public class AssigmentJava {
 					g=Math.max(sum3,sum4);
 					UserWins=UserWins+g;
 					aux2 = g;
-					System.out.println("\nYou got "+g+"€");		
+					System.out.println("\nYou got "+g+"â‚¬");		
 					}
 				
 				else if(contPrizeSum3==contPrizeSum5){	
@@ -246,7 +246,7 @@ public class AssigmentJava {
 					g=Math.max(sum3,sum5);
 					UserWins=UserWins+g;
 					aux2 = g;
-					System.out.println("\nYou got "+g+"€");		
+					System.out.println("\nYou got "+g+"â‚¬");		
 					}
 				
 				
@@ -256,7 +256,7 @@ public class AssigmentJava {
 					g=Math.max(sum4,sum5);
 					UserWins=UserWins+g;
 					aux2 = g;
-					System.out.println("\nYou got "+g+"€");		
+					System.out.println("\nYou got "+g+"â‚¬");		
 					}
 				
 				else if(contPrizeSum4==contPrizeSum5){	
@@ -264,7 +264,7 @@ public class AssigmentJava {
 					g=Math.max(sum4,sum5);
 					UserWins=UserWins+g;
 					aux2 = g;
-					System.out.println("\nYou got "+g+"€");		
+					System.out.println("\nYou got "+g+"â‚¬");		
 					}
 				
 				
@@ -344,35 +344,35 @@ public class AssigmentJava {
 				
 				switch(score) {
 				case 1: 
-					System.out.println("You won €1.000");
+					System.out.println("You won â‚¬1.000");
 					cash1=1000;
 					break;
 					
 				case 2:
-					System.out.println("You won €6.000");
+					System.out.println("You won â‚¬6.000");
 					cash1=6000;
 					break;
 				
 				case 3:
-					System.out.println("You won €25.000");
+					System.out.println("You won â‚¬25.000");
 					cash1=25000;
 					break;
 				
 				
 				case 4:
-					System.out.println("You won €100.000");
+					System.out.println("You won â‚¬100.000");
 					cash1=100000;
 					break;				
 				
 				case 5:
-					System.out.println("You won €800.000");
+					System.out.println("You won â‚¬800.000");
 					cash1=800000;
 					break;
 				
 				
 				}//switch		
 
-				System.out.println("You have won €"+cash1+" because you guested "+score+" numbers right");				
+				System.out.println("You have won â‚¬"+cash1+" because you guested "+score+" numbers right");				
 				
 				
 				
@@ -442,7 +442,7 @@ public class AssigmentJava {
 				
 				if(SumGess==total) {
 					cash3=300000;
-					System.out.println("Oooooooooh yes!, that is right! the sum of the winner numbers is "+total+" you €"+cash3);
+					System.out.println("Oooooooooh yes!, that is right! the sum of the winner numbers is "+total+" you â‚¬"+cash3);
 			
 				
 				}
@@ -483,14 +483,14 @@ public class AssigmentJava {
 				}
 				
 				}//END FOR
-				System.out.println("\nYou've got  €"+cash1);
+				System.out.println("\nYou've got  â‚¬"+cash1);
 				
-				System.out.println("2 - UNFINISHED "+cash2+"€");
+				System.out.println("2 - UNFINISHED "+cash2+"â‚¬");
 				
 				//if the user had guessed the sum of winning number show the cash, else dont.
 				if(SumGess==total) {
 					cash3=300000;
-					System.out.println("3 - You've guessed the sum of the winning numbers, the sum was "+total+" \nso you've got  €"+(double)cash3);
+					System.out.println("3 - You've guessed the sum of the winning numbers, the sum was "+total+" \nso you've got  â‚¬"+(double)cash3);
 				}
 				
 				else {				
@@ -498,7 +498,7 @@ public class AssigmentJava {
 				}
 				
 				
-				System.out.println("\n\n ************The highest prize +bunos game is €"+UserWins+"***************");
+				System.out.println("\n\n ************The highest prize +bunos game is â‚¬"+UserWins+"***************");
 				
 				
 				}//2 main
